@@ -1,0 +1,334 @@
+body {
+    background-color: #fcf8e3;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div > div {
+    margin-top: 30px;
+}
+
+#logo {
+    float: left;
+    padding: 0;
+}
+
+#search {
+    padding: 0;
+    float: right;
+    position: relative;
+    border-bottom: 3px solid #b47979;
+}
+
+#search input {
+    width: 100%;
+    height: 45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f4f4f6;
+    border: 1px solid #f4f4f6;
+    font: 16px 'Open Sans';
+    line-height: 18px;
+    color: #b47979;
+    padding: 14px 42px 14px 14px;
+}
+
+#search a {
+    display: inline-block;
+    position: absolute;
+    font-size: 24px;
+    color: #b47979;
+    top: 11px;
+    right: 14px;
+    text-decoration: none;
+}
+
+.navbar {
+    margin: 10px auto;
+    list-style: none;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.nav li {
+        margin: 30px 30px 0 60px;
+    color: white;
+}
+
+.open > .dropdown-menu {
+    display: block;
+    width: 30px;
+    margin-left: -35px;
+    background-color: #333;
+}
+
+.dropdown-menu li {
+    float: left;
+    color: #ffffff;
+    height: 30px;
+}
+
+li a {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #ffffff !important;
+}
+
+.dropdown-menu {
+    padding-left: 10px;
+}
+
+li > span {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 2px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li:first-child > a:after {
+    background: #b47979;
+    z-index: 1;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li:hover > a:after {
+    background: #b47979;
+    z-index: 1;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    bottom: -21px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+a.dropdown-toggle:hover ul.dropdown-menu li a {
+display: block
+}
+
+#myCarousel {
+    margin-top: -70px;
+
+}
+
+h2::after {
+    background: #b47979 none repeat scroll 0 0;
+    content: "";
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3px;
+}
+
+h2 {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.thumb-box1 {
+    padding: 59px 0 0 0;
+    overflow: hidden;
+    background: #f4f4f6;
+    margin-top: -45px;
+}
+
+.thumb-box1 .box {
+    padding: 26px 160px 32px 33px;
+    position: relative;
+    margin: 0 10px 42px 0;
+}
+
+.thumb-box1 .box .title {
+    font: 30px 'Open Sans';
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 17px;
+}
+
+.box p {
+    color: #ffffff;
+    line-height: 30px;
+    margin: 0 0 11px;
+    font-size: 20px;
+
+}
+
+strong {
+    width: 140px;
+    height: 140px;
+    background: #ffffff;
+    text-align: center;
+    font: 90px/132px 'Paytone One';
+    color: #444;
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+    font-weight: 700;
+
+}
+
+
+
+.box1 {
+    background-color: #ff7372;
+}
+
+.box2 {
+    background-color: #f8c931;
+}
+
+.box3 {
+    background-color: #0fcabf;
+}
+
+.box4 {
+    background-color: #7cc144;
+}
+
+.thumb-box2 {
+    padding: 59px 0 0 0;
+    overflow: hidden;
+    background: #f4f4f6;
+    margin-top: 0;
+}
+
+.thumb-box2 figure img {
+    border-radius: 100%;
+}
+
+.thumb-pad1 {
+    margin: 0 0 30px 0;
+    padding: 40px 23px 24px 23px;
+    background: #ffffff;
+    border-bottom: 3px solid #cacacc;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.thumb-pad1:hover {
+    border-bottom-color: #b47979;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.thumb-pad1 .thumbnail {
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background: none;
+}
+
+.thumb-pad1 .thumbnail .caption a {
+    font: 22px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+}
+.thumb-pad1 .thumbnail .caption a:hover {
+    text-decoration: none;
+    color:#b47979 ;
+}
+
+.thumb-pad1 .thumbnail .caption p {
+    margin: 10px 0px 0px;
+    font-size: 14px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.thumb-box3 {
+    padding: 59px 0 0 0;
+    overflow: hidden;
+    background: #f4f4f6;
+    margin-top: 0;
+}
+
+.thumb-pad2 .thumbnail {
+    border-radius: 0px;
+    border-bottom: 3px solid #cacacc;
+}
+
+.thumb-pad2 .thumbnail:hover {
+    border-bottom-color: #b47979;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.thumb-pad2 figure strong {
+    width: 140px;
+    height: 139px;
+    background: #b47979;
+    padding: 20px 0 0 0;
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font: 90px/62px 'Paytone One';
+    color: #ffffff;
+    text-align: center;
+}
+.thumb-pad2 figure strong i {
+    display: block;
+    font: 22px/1em 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 20px 0 0 0;
+}
+
+.thumb-pad2 .thumbnail .caption a:hover {
+    text-decoration: none;
+    color:#b47979 ;
+}
+
+
+
+.thumb-pad2 .thumbnail .caption {
+    padding: 30px 27px 32px 27px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    background: #ffffff;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    transition: all 0.35s;
+    color: #999999;
+    line-height: 30px;
+    border-radius: 0px;
+}
+
+.thumb-pad2 .thumbnail .caption p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.thumb-pad2 .thumbnail .caption a {
+    margin-top: 10px;
+    font-size: 22px;
+}
+ .thumb-box3 figure img{
+     border-radius: 0px;
+ }
